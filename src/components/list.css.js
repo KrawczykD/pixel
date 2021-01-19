@@ -19,6 +19,16 @@ flex-direction:column;
     color:white;
     transition:color .3s;
   }
+
+  & > button{
+    background: none;
+    border:none;
+    outline:none;
+    border-bottom:1px solid black;
+  }
+  & > button:hover{
+    cursor:pointer
+  }
 `
 
 export default list;

@@ -27,7 +27,6 @@ handleToggleUser = (clickedUser) => {
 
 
   render (){
-    console.log(this.state.users)
     return(
      <Container>
        <List handleToggleUser={this.handleToggleUser} header="General List" users={this.state.users}></List>
